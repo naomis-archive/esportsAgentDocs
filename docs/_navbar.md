@@ -14,11 +14,13 @@
 
 - [Esports Queue Bot](/esports-queue-bot/index.md)
   - [Supported Games](/esports-queue-bot/supported-games.md)
+  - [Get Started](/esports-queue-bot/get-started.md)
   - Public Commands
   - [`init` command](/esports-queue-bot/init.md)
   - [`ping` command](/esports-queue-bot/ping.md)
   - [`queue` command](/esports-queue-bot/queue.md)
-  - [`stats` command](/esports-queue-bot/stats.md)
+  - [`team` command](/esports-queue-bot/team.md)
+  - [`win` command](/esports-queue-bot/win.md)
   - Private Commands
   - [`admin` command](/esports-queue-bot/admin.md)
 
