@@ -5,8 +5,9 @@ The queue bot is designed to help you find game matches with players of similar 
 > [!NOTE]
 > The prefix for this bot is `eq!`, so to call the help command you would use `eq!help`.
 
-> [!TIP]
-> If you are looking to start using this bot to find matches, begin with the `init` command. Then, use the `stats` command to set your rank, and finally the `queue` command to join a queue.
+## Getting Started
+
+Want to start using the service? [Begin here](/esports-queue-bot/get-started.md).
 
 ## Supported Game Types
 
