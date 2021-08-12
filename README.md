@@ -1,18 +1,10 @@
-# Project Name
+# Esports Agent Docs
 
-Project Description
-
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/new-repo-template)
+Documentation for the various Esports Agent Discord bots I've built.
 
 ## Live Version
 
-This page is not yet deployed.
-
-<!--This page is currently deployed. [View the live website.]()-->
+This page is currently deployed. [View the live website.](https://www.nhcarrigan.com/esports-agent-docs)
 
 ## Feedback and Bugs
 
