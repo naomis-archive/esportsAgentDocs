@@ -21,11 +21,14 @@ So, if you wanted to identify yourself for Rocket League as nhcarrigan on Steam,
 eq!init rl steam nhcarrigan 2000
 ```
 
-Note that once you've set your initial ranking you will not be able to change it. Please ensure the stat you provide matches your stat on the game's [approved tracker](/esports-queue-bot/supported-games.md). Our admin team will verify this as needed.
+> [!NOTE]
+> All stat updates require Admin verification. Please ensure the stat you provide matches your stat on the game's [approved tracker](/esports-queue-bot/supported-games.md). Our admin team will verify this as needed.
+
+If you need to update your stats, you would perform the same command.
 
 ## For Captains
 
-> [!NOTE]
+> [!WARNING]
 > Ensure that all of your players have initialised their stats for your desired game, as documented above. **This includes you as the captain!**
 
 These steps will walk you through setting up your team, adding players, and joining the queue.
@@ -81,6 +84,12 @@ eq!team calculate
 
 The bot will generate your team's initial rank.
 
+### Updating Players
+
+On rare occasions, your team roster may change. You are able to add and remove players as needed to update your roster. Note that doing so will require you to recalculate your rank, which will impact your standings.
+
+If your rank has not been calculated/recalculated, you will be unable to join the queue.
+
 ### Join the Queue
 
 Congratulations! You are now ready to join the queue. To add your team to the queue for a given game:
@@ -90,6 +99,10 @@ eq!queue <game>
 ```
 
 If you have configured your team correctly, the bot will add you to the queue. When a team is found in the queue at a similar skill level, you will be notified that your match is ready to start.
+
+When a match starts, the bot will provide a scrim record. You will need the scrim number to report your win.
+
+Until the scrim is reported, neither team will be able to rejoin the queue.
 
 ### Report a Win
 
@@ -101,11 +114,18 @@ In order to get the best matchmaking experience, it is important that you report
 To report a win, you need to know the Discord name of your opposing team's captain. Then:
 
 ```txt
-eq!win <game> <@opponent>
+eq!win <game> <scrim>
 ```
 
-To report a win against Vokul's Rocket League team:
+To report a win for Rocket League Scrim #1:
 
 ```txt
-eq!win rl @Vokul
+eq!win rl 1
 ```
+
+Once you claim a win, the opposing team captain will be notified to confirm or dispute the win. If the captain does not respond within 30 minutes, the win will be automatically approved.
+
+> [!ATTENTION]
+> This means you need to remain active in the Discord server to dispute wins claimed against your team.
+
+You can only claim a win for a scrim that is assigned to you, and you cannot claim a scrim more than once.
