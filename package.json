@@ -1,4 +1,4 @@
-Naomi{
+{
   "name": "esports-agent-docs",
   "version": "1.0.0",
   "description": "Documentation for the Esports Agent Discord bots",
@@ -15,7 +15,7 @@ Naomi{
     "type": "git",
     "url": "git+https://github.com/nhcarrigan/esports-agent-docs.git"
   },
-  "author": "Nicholas Carrigan",
+  "author": "Naomi Carrigan",
   "license": "AGPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/nhcarrigan/esports-agent-docs/issues"

@@ -1,4 +1,4 @@
-Naomi# [Esports Agent Docs](/)
+# [Esports Agent Docs](/)
 
 ---
 
@@ -26,7 +26,7 @@ Naomi# [Esports Agent Docs](/)
 
 ---
 
-© 2021 Nicholas Carrigan
+© 2021 Naomi Carrigan
 
 - [Visit My Homepage](https://www.nhcarrigan.com)
 - [Join My Chat Server](http://chat.nhcarrigan.com)
